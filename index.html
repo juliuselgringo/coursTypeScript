@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Compteur</h1>
+        <button class="btn btn-primary" id="compteur">Incrémenter: <span>0</span> </button> 
+    </div>
+    <!-- INFORMATION SUR LE COURS -->
+     <div>
+        <p>npm init -y // initialisation du projet création de package.json</p>
+        <p>npm install typescript --save-dev  // installation typescript dans le projet</p>
+        <p>créer un dossier src et y mettre le fichier app.ts</p>
+        <p>npx tsc src/app.ts --outDir dist // voir commande tsc CLI https://www.typescriptlang.org/docs/handbook/compiler-options.html //création de /dist et d'un fichier app.js</p>
+        <p>créer un fichier tsconfig.json afin de ne plus avoir que <br>
+            npx tsc // pour compiler ou<br>
+            npx tsc --watch // pour auto compiler à chaque changement
+        </p>
+
+
+
+     </div>
+
+    <!-- SCRIPT -->
+     <script src="dist/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

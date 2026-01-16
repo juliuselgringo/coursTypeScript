@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "dist", // fichier de sortie de compilation
+        "target":"es2015", // spécifier le langage en sortie du compilateur
+        "noEmitOnError": true, // ne pas compiler en cas d'erreur
+        "strict": true,
+    },
+    "files":[
+        "src/app.ts", // fichier à compiler
+    ]
+}
+
+// Doc tsconfig
+// https://www.typescriptlang.org/tsconfig/
