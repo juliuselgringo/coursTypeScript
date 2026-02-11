@@ -1,0 +1,21 @@
+declare function identity<ArgType>(arg: ArgType): ArgType;
+declare const aa: number;
+declare function first<Type>(arg: Type[]): Type;
+declare const myArr: (string | number)[];
+declare const firstElt: string | number;
+type User = {
+    firstName: string;
+    lastName: String;
+};
+type DateString = string;
+type id = string | number;
+declare const user: User;
+declare const newid: id;
+declare const compteur: HTMLButtonElement | null;
+declare let i: number;
+declare const increment: (e: Event) => void;
+declare function printId(id: string | number): void;
+declare function example(a: string | boolean, b: string | number | boolean): void;
+declare function otherEx(a: string | Date): void;
+declare function anotherEx(a: string | string[]): void;
+declare function ex1(a: MouseEvent | HTMLInputElement): void;
